@@ -1,41 +1,38 @@
 const itensDaLoja = [
     {
-        imagem: "animemoman.jpg",
+        imagem: "animewoman.jpg",
         name: "Evangelion figure",
-        price: 80.00,
+        price: 80,
         type: "action"
     },
     {
-        imagem: "dragonbollpersonagem.jpg",
+        imagem: "goku.jpg",
         name: "Dragom boll Goky SSJ",
-        price: 120.00,
+        price: 120,
         type: "action"
     },
     {
-        imagem: "starwarspersonagem.js",
+        imagem: "yoda.jpg",
         name: "Baby Yoda action",
-        price: 95.00,
+        price: 95,
         type: "action"
     },
     {
         imagem: "clock.jpg",
         name: "Quadro Clock",
-        price: 40.00,
+        price: 40,
         type: "frame"
     },
     {
         imagem: "gamepad.jpg",
         name: "Quadro Gamer",
-        price: 99.00,
+        price: 39,
         type: "frame"
     },
     {
-        imagem: "animemoman.jpg",
-        name: "Evangelion figure",
-        price: 80.00,
+        imagem: "c3po.jpg",
+        name: "Quadro C3PO",
+        price: 58,
         type: "frame"
     },
 ]
-
-let listFigures = [];
-let listFrames = [];
