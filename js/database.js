@@ -7,7 +7,7 @@ const itensDaLoja = [
     },
     {
         imagem: "goku.jpg",
-        name: "Dragom boll Goky SSJ",
+        name: "Dbz Goku SSJ",
         price: 120,
         type: "action"
     },
@@ -35,4 +35,40 @@ const itensDaLoja = [
         price: 58,
         type: "frame"
     },
+    {
+        imagem: "cr7.png",
+        name: "quadro CR7",
+        price: 88,
+        type: "frame"
+    },
+    {
+        imagem: "legends.png",
+        name: "Quadro legends NBA",
+        price: 76,
+        type: "frame"
+    },
+    {
+        imagem: "luff.png",
+        name: "One Piece Luff",
+        price: 89,
+        type: "action"
+    }, 
+    {
+        imagem: "naruto.png",
+        name: "Naruto Seis Caminhos",
+        price: 528,
+        type: "action"
+    }, 
+    {
+        imagem: "vegeta.png",
+        name: "Vegetta Galik-gum",
+        price: 254,
+        type: "action"
+    }, 
+    {
+        imagem: "sasuke.png",
+        name: "Sasuke Mobille",
+        price: 68,
+        type: "action"
+    }, 
 ]

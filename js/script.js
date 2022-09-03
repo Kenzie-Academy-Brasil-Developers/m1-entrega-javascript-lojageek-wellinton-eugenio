@@ -16,37 +16,34 @@ function separarItens(lista){
 
 separarItens(itensDaLoja)
 
-const sectionFigures = document.getElementsByClassName("listFigures");
-
-const sectionFrames = document.getElementsByClassName("listFrames");
-
+const sectionFigures = document.querySelector(".figures");
+console.log(sectionFigures)
+const sectionFrames = document.querySelector(".frames");
+console.log(sectionFrames)
 function listarItens(itens, local){
     for(let i = 0; i < itens.length; i++){
         
-        let itemAtual = itens[i];
+        let item = itens[i];
 
-        let cardPronto = criarCard(itemAtual);
+        let cardPronto = criarCard(item);
           
         local.appendChild(cardPronto)
     }
-    
-    
-
 }
 
 listarItens(listFigures, sectionFigures);
-//listarItens(listFrames, sectionFrames);
+listarItens(listFrames, sectionFrames);
 
 function criarCard(item){
     let imagem = item.imagem;
     let nome   = item.name;
-    let preco  = item.price
-    let type   = item.type
+    let preco  = item.price;
+    let type   = item.type;
 
     let tagLi    = document.createElement("li");
     let tagImg   = document.createElement("img");
-    let tagNome  = document.createElement("h3")
-    let tagPrice = document.createElement("p")
+    let tagNome  = document.createElement("h3");
+    let tagPrice = document.createElement("p");
 
     tagImg.src = `./assets/img/${imagem}`
     tagImg.alt = nome
