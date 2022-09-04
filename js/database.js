@@ -43,7 +43,7 @@ const itensDaLoja = [
     },
     {
         imagem: "legends.png",
-        name: "Quadro legends NBA",
+        name: "legends NBA",
         price: 76,
         type: "frame"
     },
@@ -54,21 +54,9 @@ const itensDaLoja = [
         type: "action"
     }, 
     {
-        imagem: "naruto.png",
-        name: "Naruto Seis Caminhos",
-        price: 528,
-        type: "action"
-    }, 
-    {
         imagem: "vegeta.png",
         name: "Vegetta Galik-gum",
         price: 254,
-        type: "action"
-    }, 
-    {
-        imagem: "sasuke.png",
-        name: "Sasuke Mobille",
-        price: 68,
         type: "action"
     }, 
 ]
