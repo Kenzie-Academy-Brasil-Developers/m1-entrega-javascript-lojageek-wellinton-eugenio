@@ -59,12 +59,19 @@ body{
 a{
     color: #FFFFFF;
 }
-
+a:hover{
+    color:#0A99FE;
+}
+.inactive{
+    color: #0A99FE;
+}
+.inactive:hover{
+    color: #FFFFFF;
+}
 .menuactive{
     width: 150px;
     height: 40px;
     background-color:#0A99FE;
-    color:white;
     border: none;
     border-radius: 8px;
     font-size: 20px;
@@ -72,10 +79,34 @@ a{
     padding: 8px;
     padding-left: 36px;    
 }
+.menuactive:hover{
+    width: 150px;
+    height: 40px;
+    background-color: #0a98fe56;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 6px;
+    padding-left: 34px;
+    border:#0A99FE 2px solid;  
+}
+
 .menuinactive{
     width: 150px;
     height: 40px;
     background-color: #0a98fe56;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    padding: 6px;
+    padding-left: 34px;
+    border:#0A99FE 2px solid;
+}
+.menuinactive:hover{
+    width: 150px;
+    height: 40px;
+    background-color:#0A99FE;
     border-radius: 8px;
     border: none;
     font-size: 20px;
@@ -87,10 +118,10 @@ img{
     height: 150px;
 }
 ul{
-    height: 350px;
+    max-height: 300px;
     display: flex;
     justify-content: left;
-    flex-wrap: wrap;
+    overflow: hidden;
     overflow-x:auto;
 }
 
@@ -104,9 +135,9 @@ li{
     border-radius: 8px;
     border:#FFFFFF 2px solid;
     margin-left: 15px;
-
+    border:#80808036 2px solid;
 }
 li:hover{
     border:#808080 2px solid;
-    border-radius: 8px;
+    border-radius: 8%;
 }
