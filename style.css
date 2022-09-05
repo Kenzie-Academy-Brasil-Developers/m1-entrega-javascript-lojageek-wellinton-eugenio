@@ -114,8 +114,9 @@ a:hover{
     padding-left: 36px;
 }
 img{
-    width: 150px;
+    width: 203px;
     height: 150px;
+    border-radius: 5px;
 }
 ul{
     max-height: 350px;
