@@ -118,7 +118,7 @@ img{
     height: 150px;
 }
 ul{
-    max-height: 300px;
+    max-height: 350px;
     display: flex;
     justify-content: left;
     overflow: hidden;
@@ -127,6 +127,7 @@ ul{
 
 li{
     width: 207px;
+    min-width: 207px;
     height: 275px;
     display: flex;
     flex-direction: column;
@@ -139,5 +140,5 @@ li{
 }
 li:hover{
     border:#808080 2px solid;
-    border-radius: 8%;
+    border-radius: 8px;
 }
